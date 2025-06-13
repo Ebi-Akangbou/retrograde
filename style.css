@@ -35,7 +35,7 @@ body{
   font-family: Libre Franklin;
   margin: 10px;
   background: var(--BG);
-  background-image: url('../images/bg-stars.svg');
+  background-image: url('..images/bg-stars.svg');
   background-repeat: no-repeat;
   line-height: 1.5;
   font-size: 14px;
@@ -82,7 +82,7 @@ footer{
   bottom: 0;
   font-size: 10px;
   padding: 32px;
-  background-image: url('../images/pattern-hills.svg');
+  background-image: url('..images/pattern-hills.svg');
   background-size: cover;
   
 }
