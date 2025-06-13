@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Variables */
+  :root{
+    --BG:  hsl(234, 17%, 12%);
+     --BTNBG:  hsl(236, 21%, 26%);
+    /* --COLOR: */
+    --HEADERCOLOR: hsl(0, 0%, 100%);
+  }
+  
+  /* General Styles */
+  html,  body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+body{
+  padding: 0px;
+  font-family: Libre Franklin;
+  margin: 10px;
+  background: var(--BG);
+  background-image: url('../images/bg-stars.svg');
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  font-size: 14px;
+  color: var(--BTNBG);
+  overflow-x: hidden;
+  margin-bottom: 0px;
+}
+header{
+  display: grid;
+  place-content: center;
+  margin-top: 60px;
+  
+}
+header h1{
+
+  text-transform: uppercase;
+  color: var(--HEADERCOLOR);
+  font-size: 1.5rem;
+}
+section{
+  margin-top: 20vh;
+  font-size: 12px;
+}
+  
+section h2{
+  display: none;
+}
+div p{
+    
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: hsl(237, 18%, 59%);
+}
+
+
+
+footer{
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  bottom: 0;
+  font-size: 10px;
+  padding: 32px;
+  background-image: url('../images/pattern-hills.svg');
+  background-size: cover;
+  
+}
+.img{
+  border-radius: 32px;
+}
+
+
+/* BLOCK styling */
+.main-div{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+.main-p{
+  margin-top: 25%;
+  display: flex;
+  place-content: center;
+  font-size: 1.5rem;
+  color: var(--HEADERCOLOR);
+}
+#days, #hours, #minutes, #seconds{
+  background-color: var(--BTNBG);
+  color: hsl(120, 100%, 37%);
+  padding: 17px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 10px;
+  box-shadow: 0px 6px 6px -1px black;
+  margin-bottom: 10px;
+}
+#copyright{
+  color: hsl(120, 100%, 37%);
+position: absolute;
+bottom: 0;
+transform: translateX(109%);
+padding-bottom: 12px;
+}
+ 
+
+  @media screen and  (min-width: 768px){
+    #copyright{
+      transform: translateX(340%);
+      padding-bottom: 12px;
+      }
+      .main-p{
+        margin-top: 35%;
+      }
+
+  }
+  @media screen and  (min-width: 1200px){
+.main-p{
+  margin-top: 7%;
+}
+    #copyright{
+      transform: translateX(600%);
+      padding-bottom: 12px;
+      }
+
+  }

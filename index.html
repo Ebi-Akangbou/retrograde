@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="Author" content="Ebi Akangbou">
-        <meta name="Author" content="Another Challenge from Frontend Mentor">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Frontend Mentor | Interactive rating component</title>
-        <link rel="stylesheet" href="Css/style.css">
-        <link rel="icon" href="/images/favicon-32x32.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Developer" content="Ebi Akangbou">
+    <meta name="Owner" content="Blossom">
+    <meta name="Description" content="Countdown to lunch Retrograde">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Retrograde Lunching</title>
+</head>
+<body>
+    <header><h1 class="qoute"> The portal opens in...</h1>
+        </header>
         
-    </head>
-    <body>
-        <main>         
- <img src="/images/icon-star.svg" alt="icon-star" width="28" height="25" >          
-<h1>How did we do?</h1>
-<p>Please let us know how we did with your support request. All feedback is appreciated 
-    to help us improve our offering!
-</p>
-
-<form action="/" id="form">
-<button>1</button>
-<button>2</button>
-<button>3</button>
-<button>4</button>
-<button>5</button>  
-<button class="form__button">Submit</button>
-</form>
-<section class="hero">
-    <figure>
-    <img src="/images/illustration-thank-you.svg" alt="illustration-thank-you-img"  width="162" height="108">
-    <figcaption class="offscreen">illustration-thank-you</figcaption>
-</figure>
-    <p class="hero__p"></p>
-    <h2>Thank you!</h2>
-<p>
-    We appreciate you taking the time to give a rating. If you ever need more support, 
-    don’t hesitate to get in touch!
-</p>
-</section>
+    <main>
+        <section>
+            <h2 class="offscreen"> Timing</h2>
+        <div class='main-div'>
+            <div>
+            <p id="days"></p>
+            <p>Days</p>
+        </div>
+        <div>
+            <p id="hours"></p>
+            <p>Hours</p>
+        </div>
+        <div>
+            <p id="minutes"></p> 
+            <p>Minutes</p>
+        </div>
+        <div>
+            <p id="seconds"></p> 
+            <p>Seconds</p>
+        </div>
+        </div>
+        
+        <p class="main-p">Don't miss it again</p>
   
-</main>
-
-<footer>
-    <div class="attribution">
-                        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
-                        Coded by <a href="https://vercel.com/ebi-akangbou">Ebi Akangbou</a>
-                    </div>
-                </footer>
-    
-        <script src="JS/index.js"></script>
+        </section>
+        
+    </main>
+    <footer>
+        
+        <div>
+            <a href="https://sites.google.com/view/retrogrademilitiverse/home">
+            <img class="img" src= 'images/logo.jpg' alt="icon-site"/>
+        </a>
+        </div>
+        <div>
+            <a href="https://t.me/LoopOrLose">
+            <img src='images/icons8-telegram.svg' alt="icon-telegram.svg"/>
+        </a>
+        </div>
+        
+        </footer>
+        <p id="copyright"></p> 
+    <script src="index.js"></script>
 </body>
-
 </html>
